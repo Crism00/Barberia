@@ -1,0 +1,34 @@
+.textocarr
+{
+    color: azure;
+    font-size: 20px;
+}
+body
+{
+    background-color: darkgoldenrod;
+}
+nav-link.active
+{
+    color:black ;
+}
+#titulo2
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: royalblue;
+}
+#minidiv
+{
+    background-color: darkslateblue;
+}
+#tituloP1
+{
+    font-size: 40px;
+    text-shadow: gold;
+}
+#raduis
+{
+    border-radius: 15%;
+    padding-top: 5px;
+}

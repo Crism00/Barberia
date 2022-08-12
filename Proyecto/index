@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../img/logo.png">
+	<link rel="stylesheet" href="/Proyecto//css//estilo1.css">
+	<link rel="stylesheet" href="/Proyecto/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Proyecto/css/fontello.css">
+    <title>classic cuts</title>
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+			<div class="row">
+		<div class="col-12 col-md-12">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<p>Classic Cuts</p>
+			</div>
+		
+			<div class="d-none d-md-block">
+			<nav class="menu">
+				<a href="#" class="a">Nosotros</a>
+				<a href="#" class="a">Blog</a>
+				<a href="../integradora/view/iniciosesion.php"><button type="button" class="btn btn-outline-light">iniciar sesion</button></a>
+			</nav>
+		</div>
+	</div>
+	</div>
+	</div>
+	</header>
+	
+	<div class="capa"></div>
+<!--	--------------->
+<div class="galeria">
+	<div class="imagen-principal">
+		<img src="/Proyecto/img/fondobarb.jfif" alt="">
+	</div>
+</div>
+<br>
+<br>
+<div class="conteiner">
+<div class="card-group">
+            <div class="card ">
+				<div class="top-row background-top-row">
+
+				</div>
+			</div>
+</div>
+<!---->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="../integradora/view/servicios.php">Servicios</a>
+			<a class="icon-facebook-rect-1" href="https://www.facebook.com/profile.php?id=100063500375166">Facebook</a>
+			<a  class="icon-instagram" href="https://www.instagram.com/Classic.Cuts_Barberia/">Instagram</a>
+			<!--<a href="registrarse.php"><button type="button" class="d-m-none d-xl-none d-block btn btn-outline-light">iniciar sesion</button></a>-->
+			<a href="/Proyecto/views/barberos.php">Barbero</a>
+		</nav>
+		<label for="btn-menu" class="icon-back"></label>
+	</div>
+</div>
+<!--	--------------->
+</body>
+</html>
