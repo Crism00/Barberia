@@ -11,14 +11,14 @@ class Ejecuta
         try
         {
             $cc = new conexion("barberia","root","admin");
-            $objetoPDO = $cc->getPDO();
-            $objetoPDO->query($qry);
+            $objetoPDO = $cc-> getPDO();
+            $objetoPDO-> query($qry);
 
-            $cc->desconectarDB();
+            $cc-> desconectarDB();
         }
         catch(PDOException $e)
         {
-            echo $e->getMessage();
+            echo $e-> getMessage();
         }
     }
 }

@@ -7,10 +7,9 @@ class Citas
 {
     public function CITA($fecha, $horario)
     {
-        
-         $insert = new Ejecuta();
-         $cadena = "INSERT INTO citas(Usuario_c, fecha, hora_cita, Status) VALUES('Invitado','$fecha',".intval($horario).",'Pendiente')";
-         $insert->ejecutar($cadena);
+        $insert = new Ejecuta();
+        $cadena = "INSERT INTO citas(Usuario_c, fecha, hora_cita, Status) VALUES('Invitado','$fecha',".intval($horario).",'Pendiente')";
+        $insert->ejecutar($cadena);
     }
     public function SERVICIO($serv1,$serv2)
     {
@@ -18,8 +17,10 @@ class Citas
         $horario = $_SESSION['horario'];
         $select = new Select();
         $cadena1 = "SELECT * FROM CITAS where citas.fecha='$fechas' and citas.hora_cita=".intval($horario)."";
+
         echo"$cadena1";
-        $select->seleccionar($cadena1);
+        $select-> seleccionar($cadena1);
+
         foreach($select as $ola)
         {
             $cita=$ola['id_citas'];
